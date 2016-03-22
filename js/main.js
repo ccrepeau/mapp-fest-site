@@ -26,13 +26,13 @@ $( document ).ready(function() {
     gotoState1 = function() {
         console.log( "state 1" );
         $(".content-apropos").show();
-        $("body").animate({"color":"black"},300);
+        $("body").animate({"color":"black"},3000);
         $(".main-container").css("border-color","black");
-        $("body, .corner").css("background-color","white");
+        $("body, .corner-A, .corner-P").css("background-color","white");
         $(".content-mtl").hide();
         state = 1;
     }
-    setTimeout(gotoState1,5000)
+    setTimeout(gotoState1,2000)
     
     
 });
